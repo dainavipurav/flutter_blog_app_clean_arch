@@ -1,0 +1,19 @@
+name: blog_app
+description: "Blog app with clean architecture practice, Hive for caching, bloc or cubit for State management, get_it for DI, fp_dart for functional programming"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
